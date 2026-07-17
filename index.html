@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MindRivals — Duel your friends. Sharpen your mind.</title>
+<meta name="description" content="MindRivals is the competitive brain-teaser arena: 800 levels, endless online rounds, and head-to-head duels with friends. Coming to Google Play.">
+<style>
+  :root { --ink:#0E1116; --surface:#171C24; --line:#2A3240; --violet:#7C5CFF;
+          --ember:#FF6B35; --gold:#FFC94D; --text:#F2F5F9; --muted:#8B94A3; }
+  * { box-sizing: border-box; margin: 0; }
+  body { background: var(--ink); color: var(--text);
+         font-family: -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.6; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 24px; }
+  header { display:flex; align-items:center; justify-content:space-between; padding: 16px 0; }
+  .logo { font-size: 26px; font-weight: 800; color: var(--violet); text-decoration: none; }
+  .logo span { color: var(--ember); }
+  nav a { color: var(--muted); text-decoration: none; margin-left: 20px; font-size: 14px; }
+  nav a:hover { color: var(--text); }
+  .hero { text-align: center; padding: 72px 0 48px; }
+  .mark { font-size: 72px; }
+  h1 { font-size: clamp(32px, 6vw, 52px); margin: 16px 0 8px; }
+  h1 .v { color: var(--violet); } h1 .e { color: var(--ember); }
+  .tag { color: var(--muted); font-size: 18px; margin-bottom: 32px; }
+  .cta { display:inline-block; background: var(--gold); color: var(--ink); font-weight: 700;
+         padding: 14px 32px; border-radius: 14px; text-decoration: none; }
+  .cta.soon { opacity:.75; pointer-events:none; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+          gap: 16px; margin: 56px 0; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 24px; }
+  .card h3 { margin-bottom: 8px; } .card .ic { font-size: 28px; }
+  .card p { color: var(--muted); font-size: 14px; }
+  footer { border-top: 1px solid var(--line); margin-top: 48px; padding: 24px 0;
+           color: var(--muted); font-size: 13px; display:flex; flex-wrap:wrap; gap:16px;
+           justify-content: space-between; }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="logo" href="/">Mind<span>Rivals</span></a>
+    <nav>
+      <a href="/privacy/">Privacy</a>
+      <a href="/delete-account/">Account Deletion</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="mark">⚡</div>
+    <h1><span class="v">Duel your friends.</span><br><span class="e">Sharpen your mind.</span></h1>
+    <p class="tag">The competitive brain-teaser arena — logic, riddles, math, emoji and more.</p>
+    <a class="cta soon" href="#">Coming soon to Google Play</a>
+  </section>
+
+  <section class="grid">
+    <div class="card"><div class="ic">⚔️</div><h3>Rival Duels</h3>
+      <p>Challenge a friend with a code or Quick Match an instant rival. Classic 7 questions or timed 1, 3 and 5-minute blitz battles.</p></div>
+    <div class="card"><div class="ic">🎯</div><h3>800 Levels</h3>
+      <p>8 arenas × 100 levels of fresh questions with rising difficulty. Fully playable offline, anywhere.</p></div>
+    <div class="card"><div class="ic">♾️</div><h3>Infinity Mode</h3>
+      <p>Endless online rounds — you never see the same question twice.</p></div>
+    <div class="card"><div class="ic">🔥</div><h3>Daily Challenge</h3>
+      <p>The same 5 puzzles for every player on Earth, once a day. Protect your streak, climb the global leaderboard.</p></div>
+  </section>
+
+  <footer>
+    <div>© 2026 MindRivals</div>
+    <div>
+      <a href="/privacy/">Privacy Policy</a> ·
+      <a href="/delete-account/">Delete your account</a> ·
+      <a href="mailto:YOUR-EMAIL-HERE">Contact</a>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
